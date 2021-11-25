@@ -1,0 +1,49 @@
+.modal-header {
+    background-color: rgb(25, 83, 95);
+    background-image: url(img/Hoja.png);
+}
+
+img.derecha {
+    float: right;
+}
+
+h1.titulin {
+    color: rgb(240, 243, 245);
+}
+
+.container-publicacion {
+    background-color: rgba(215, 201, 170, 0.733);
+    border-radius: 20px;
+    border-color: #19535F;
+    border-style: solid;
+    margin: 10px, 10px, 10px, 10px;
+}
+
+.redondita {
+    border-radius: 50%;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(25, 83, 95);
+    color: rgb(240, 243, 245);
+    text-align: center;
+}
+
+.errores {
+    -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    -o-box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    background: red;
+    box-shadow: 0 0 10 px rgba(0, 0, 0, 0.3);
+    color: #fff;
+    display: none;
+    font-size: 14px;
+    margin-top: -80px;
+    margin-left: 340px;
+    padding: 10px;
+    position: absolute;
+}

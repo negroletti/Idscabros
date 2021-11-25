@@ -1,0 +1,153 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+
+body {
+	font-size: 16px;
+	font-family: 'Raleway', sans-serif;
+	background-color:rgb(25, 83, 95);
+	color:#fff;
+}
+
+a {
+	text-decoration: none;
+	color:#faf5f0;
+}
+
+ul{
+	text-decoration: none;
+	color: red;
+}
+
+.contenedor {
+	max-width: 500px;
+	width: 90%;
+	margin: auto;
+}
+
+.titulo {
+	font-weight: 300;
+	color:rgb(240, 243, 245);
+	text-align: center;
+	margin: 60px 0 30px 0;
+}
+
+.border {
+	border:none;
+	margin-bottom: 5px; 
+	border-top:10px solid #e9e6e2;
+	background: none;
+	color:none;
+}
+
+.formulario {
+	background-color:rgb(250, 243, 229);
+	padding: 30px;
+	margin-bottom: 30px;
+}
+
+.formulario .form-group {
+	width: 100%;
+	margin-bottom: 10px;
+}
+
+.formulario input[type="text"],
+.formulario input[type="nombre"],
+.formulario input[type="email"],
+.formulario input[type="number"],
+.formulario select[type="text"],
+.formulario input[type="password"] {
+	padding: 15px;
+	font-family: 'Raleway', sans-serif;
+	font-size: 18px;
+	line-height: 18px;
+	border: none;
+	vertical-align: top;
+}
+.formulario input[type="password"] {
+	padding: 15px;
+	font-family: 'Raleway', sans-serif;
+	font-size: 18px;
+	line-height: 18px;
+	border: none;
+	vertical-align: top;
+}
+
+.formulario .icono {
+	padding: 15px;
+	text-align: center;
+	width: 48px;
+	font-size: 18px;
+	line-height: 18px;
+	background: #c8c8c8;
+	display: inline-block;
+	color:#6b6b6b;
+	vertical-align: top;
+    max-height: 48px
+}
+
+.formulario .icono.izquierda {
+	margin-right: 4px;
+	border-radius: 3px 0 0 3px;
+}
+
+.formulario .usuario,
+.formulario .apellido,
+.formulario .nombre,
+.formulario .correo,
+.formulario .telefono,
+.formulario .password {
+	width: calc(100% - 52px);
+
+	border-radius: 0 3px 3px 0;
+}
+
+.formulario .password_btn {
+	width: calc(100% - 105px);
+}
+
+.formulario .submit-btn {
+	padding: 15px;
+	text-align: center;
+	width: 48px;
+	font-size: 18px;
+	line-height: 18px;
+	background: #44b939;
+	display: inline-block;
+	color:#fff;
+	cursor: pointer;
+	border-radius: 0 3px 3px 0;
+    max-height: 48px
+}
+
+.texto-registrate {
+	text-align: center;
+}
+
+.texto-registrate a {
+	display: block;
+	font-size: 18px;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color:rgb(25, 83, 95);
+    color: rgb(240, 243, 245);
+    text-align: center;
+  }
+
+  .formulario .error ul {
+	padding: 0 15px;
+	
+}
+
+.formulario .error ul li {
+	margin-bottom: 10px;	
+}
+
